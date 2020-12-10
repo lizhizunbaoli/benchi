@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="./chajian/bootstrap.css">
+		<script src="./chajian/jquery.js"></script>
+		<script src="./chajian/bootstrap.js"></script>
+		
+		<link rel="stylesheet" href="css/shouye.css">
+		
+		<style>
+			@font-face {font-family: 'iconfont';
+			    src: url('font/iconfont.eot'); /* IE9*/
+			    src: url('font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			    url('font/iconfont.woff') format('woff'), /* chrome、firefox */
+			    url('font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+			    url('font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+			}
+			
+			.iconfont{
+			    font-family:"iconfont" !important;
+			    font-size:16px;font-style:normal;
+			    -webkit-font-smoothing: antialiased;
+			    -webkit-text-stroke-width: 0.2px;
+			    -moz-osx-font-smoothing: grayscale;}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid" id="header">
+			<div class="container headerxin">
+				<img class="l" src="img/daohang1.png" />
+				<p class="r"><span><a href="./benchi/vmall/denglu.html">登陆</a></span>&nbsp;|&nbsp;<span><a href="#">注册</a></span></p>
+				<ul class="l">
+					<li><a href="#">车型</a></li>
+					<li><a href="#">购车指南</a></li>
+					<li><a href="#">客户服务</a></li>
+					<li><a href="#">Mercedes me</a></li>
+					<li><a href="#">梅赛德斯-AMG</a></li>
+					<li><a href="#" style="color:#007BFF;">EQ</a></li>
+					<li id="shou"><span class="iconfont">&#xe650;</span></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="shousuo">
+			<p class="r">
+				<span class="iconfont l">&#xe650;</span>
+				<input type="text" placeholder="EQC 350 纯电 SUV全新上市" />
+			</p>
+			<button>→</button>
+		</div>
+		
+		<div id="demo" class="carousel slide" data-ride="carousel">
+		 
+		  <!-- 指示符 -->
+		  <ul class="carousel-indicators">
+		    <li data-target="#demo" data-slide-to="0" class="active"></li>
+		    <li data-target="#demo" data-slide-to="1"></li>
+		    <li data-target="#demo" data-slide-to="2"></li>
+			<li data-target="#demo" data-slide-to="3"></li>
+		  </ul>
+		 
+		  <!-- 轮播图片 -->
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+			<a href="#">
+				<img src="img/l1.jpg" href="#">
+			</a>
+		    </div>
+		    <div class="carousel-item">
+			<a href="#">
+		      <img src="img/l2.jpg">
+			</a>
+		    </div>
+		    <div class="carousel-item">
+			<a href="#">
+		      <img src="img/l3.jpg">
+		    </a>
+			</div>
+			<div class="carousel-item">
+			<a href="#">
+			  <img src="img/l4.jpg">
+			</a>
+			</div>
+		  </div>
+		 
+		  <!-- 左右切换按钮 -->
+		  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+		    <span class="carousel-control-prev-icon"></span>
+		  </a>
+		  <a class="carousel-control-next" href="#demo" data-slide="next">
+		    <span class="carousel-control-next-icon"></span>
+		  </a>
+		</div>
+		
+		<div id="jieshao1" class="container">
+			<div class="gouche">
+				<img src="img/heng1.png">
+				<span>购车工具</span>
+				<img src="img/heng1.png">
+			</div>
+			<div class="daohang">
+				<ul>
+					<li class="l">
+						<span style="margin-left:10px;" class="iconfont">&#xe601;</span>
+						<p>查找经销商</p>
+					</li>
+					<li class="l">
+						<span style="margin-left:5px;" class="iconfont">&#xe60a;</span>
+						<p>车型比较</p>
+					</li>
+					<li class="l">
+						<span style="margin-left:5px;" class="iconfont">&#xe670;</span>
+						<p>预约试驾</p>
+					</li>
+					<li class="l">
+						<span class="iconfont">&#xe656;</span>
+						<p>在线购车</p>
+					</li>					
+				</ul>
+			</div>
+			<div class="gouche">
+				<img src="img/heng1.png">
+				<span>全部车型</span>
+				<img src="img/heng1.png">
+			</div>
+		</div>
+		
+		<div id="tus" class="container">
+			<div id="tu1">
+				<img src="img/liebiao1.jpg" />
+				<ul id="ul1">
+					<li>
+						<span>></span>
+						<p>轿车</p>
+					</li>
+					<li>
+						<span>></span>
+						<p>SUV</p>
+					</li>
+					<li>
+						<span>></span>
+						<p>轿跑车 & 敞篷跑车</p>
+					</li>
+					<li>
+						<span>></span>
+						<p>MPV</p>
+					</li>
+					<li>
+						<span>></span>
+						<p>纯电动车</p>
+					</li>
+				</ul>
+			</div>
+			<div class="gouche">
+				<img src="img/heng1.png">
+				<span>发现更多</span>
+				<img src="img/heng1.png">
+			</div>
+			
+			<div id="tu2">
+				<img src="img/liebiao2.jpg" />
+				<span class="zhezao"></span>
+				<div id="jieshao">
+					<p>现时购车方案</p>
+					<p>别故，迎新。多种优享方案，助你轻松拥有一辆梅赛德斯-奔驰。</p>
+					<p><a href="#">> 了解更多</a></p>
+				</div>
+			</div>
+			
+			<div id="tu3">
+				<img id="img1" class="l" src="img/liebiao3.jpg" />
+				<img id="img2" class="l" src="img/liebiao4.jpg" />
+				
+				<span class="zhezao1"></span>
+				<span class="zhezao2"></span>
+				
+				<div id="jieshao1">
+					<p>加入She's Mercedes</p>
+					<p>发出你的声音, 唤醒女性力量。</p>
+					<p><a href="#">> 了解更多</a></p>
+				</div>
+				<div id="jieshao2">
+					<p>Mercedes me 车主俱乐部</p>
+					<p>携手跨行业合作伙伴为会员打造优质的用车体验和多方位的生活关怀。</p>
+					<p><a href="#">> 了解更多</a></p>
+				</div>
+			</div>
+			
+			<div id="tu4">
+				<img src="img/liebiao5.jpg" />
+				<span class="zhezao"></span>
+				<div id="jieshao">
+					<p>认证二手车</p>
+					<p>真享如新，放心奔驰</p>
+					<p><a href="#">> 了解更多</a></p>
+				</div>
+			</div>
+			
+			<div id="tu5">
+				<img src="img/liebiao6.jpg" />
+				<span class="zhezao"></span>
+				<div id="jieshao">
+					<p>并肩前行，2019赛季F1世界锦标赛</p>
+					<p>梅赛德斯-AMG马石油车队, 2019赛季征战传奇！</p>
+					<p><a href="#">> 了解更多</a></p>
+				</div>
+			</div>
+			
+			<div id="tu6">
+				<img id="img1" class="l" src="img/liebiao7.jpg" />
+				<img id="img2" class="l" src="img/liebiao8.jpg" />
+				
+				<span class="zhezao1"></span>
+				<span class="zhezao2"></span>
+				
+				<div id="jieshao1">
+					<p>从心，认识奔驰</p>
+					<p>梅赛德斯-奔驰秘籍，助你成为高手。</p>
+					<p><a href="#">> 了解更多</a></p>
+				</div>
+				<div id="jieshao2">
+					<p></p>
+					<p><a href="#">> 了解更多</a></p>
+				</div>
+			</div>
+			
+			
+			<div id="tu7">
+				<img src="img/liebiao9.jpg" />
+				<span class="zhezao"></span>
+				<div id="jieshao">
+					<p>无畏共联盟</p>
+					<p>全新GLA SUV 携手2020英雄联盟全球总决赛，所向无前</p>
+					<p><a href="#">> 了解更多</a></p>
+				</div>
+			</div>
+			
+			
+			<div id="tu8">
+				<img src="img/liebiao10.jpg" />
+				<span class="zhezao"></span>
+				<div id="jieshao">
+					<p>2020 梅赛德斯-奔驰 SUV征服之旅</p>
+					<p>天地即征途</p>
+					<p><a href="#">> 了解更多</a></p>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div id="yuyue">
+			<img src="img/beijing1.jpeg" />
+			<div id="box1">
+				<p>预约试驾</p>
+				<p>亲身体验梅赛德斯-奔驰吧。</p>
+				<p><a href="#">> 开始</a></p>
+			</div>
+		</div>
+		
+		<div id="fenxiang">
+			<p>分享给您的好友</p>
+			<span class="iconfont">&#xe63c;</span>
+			<span class="iconfont">&#xe63e;</span>
+			<span class="iconfont">&#xe67a;</span>
+		</div>
+		
+		<div id="dibu">
+		<div id="di1">
+		   <ul>
+			   <li class="l"><a href="#">车型</a></li>
+			   <li class="l"><a href="#">购车指南</a></li>
+			   <li class="l"><a href="#">客户服务</a></li>
+			   <li class="l"><a href="#">奔驰天下</a></li>
+		   </ul>
+		   <ul>
+		   		<li class="l"><a href="#">轿车</a></li>
+				<li class="l"><a href="#">限时购车新方案</a></li>
+				<li class="l"><a href="#">星徽保养菜单</a></li>
+		   		<li class="l"><a href="#">品牌介绍</a></li>
+		   </ul>
+		   <ul>
+		   		<li class="l"><a href="#">SUV</a></li>
+				<li class="l"><a href="#">查找经销商</a></li>
+				<li class="l"><a href="#">原厂修养套餐家族</a></li>
+		   		<li class="l"><a href="#">Mercedes me</a></li>
+		   </ul>
+		   <ul>
+		   		<li class="l"><a href="#">轿跑车和敞篷跑车</a></li>
+				<li class="l"><a href="#">金融计算器</a></li>
+				<li class="l"><a href="#">手机端服务体验</a></li>
+		   		<li class="l"><a href="#">奔驰杂志</a></li>
+		   </ul>
+		   <ul>
+				<li class="l"><a href="#">MPV</a></li>
+				<li class="l"><a href="#">预约试驾</a></li>
+				<li class="l"><a href="#">选装配件及精品</a></li>
+				<li class="l"><a href="#">奔驰新闻</a></li>
+		   </ul>
+		   <ul>
+				<li class="l"><a href="#">纯电动车</a></li>
+		   		<li class="l"><a href="#">在线购车</a></li>
+				<li class="l"><a href="#">原厂配件</a></li>
+				<li class="l"><a href="#">企业社会责任</a></li>
+		   </ul>
+		   <ul>
+		   		<li class="l"><a href="#">车型总览</a></li>
+		   		<li class="l"><a href="#">下载产品手册</a></li>
+		   		<li class="l"><a href="#">事故与保险服务</a></li>
+		   		<li class="l"><a href="#">供应商信息平台</a></li>
+		   </ul>
+		   <ul>
+		   		<li class="l"><a href="#">认证二手车</a></li>
+		   		<li class="l"><a href="#">车型比较</a></li>
+		   		<li class="l"><a href="#">24小时道路救援</a></li>
+		   		<li class="l"><a href="#">环保信息查询</a></li>
+		   </ul>
+		   <ul>
+		   		<li class="l"></li>
+		   		<li class="l"><a href="#">留学回国人员购车业务</a></li>
+		   		<li class="l"><a href="#">召回通知</a></li>
+		   		<li class="l"></li>
+		   </ul>
+		   <ul>
+		   		<li class="l"></li>
+		   		<li class="l"></li>
+		   		<li class="l"><a href="#">金融服务</a></li>
+		   		<li class="l"></li>
+		   </ul>
+		   <ul>
+		   		<li class="l"></li>
+		   		<li class="l"></li>
+		   		<li class="l"><a href="#">服务公约</a></li>
+		   		<li class="l"></li>
+		   </ul>
+		</div>
+		
+		<div id="di2">
+			<p>其它奔驰网站</p>
+			<p class="l"><a href="#">金融服务</a></p>
+			<p class="l"><a href="#">腾势X 电动SUV</a></p>
+		</div>
+		
+		<div id="di3">
+			<p>关注我们</p>
+			<div id="di31">
+				<div id="yuan" class="l"><span class="iconfont">&#xe63e;</span></div>
+				<a href="#"><span style="font-size:26px;" class="iconfont">&#xe67a;</span></a>
+				<a href="#"><span style="font-size:26px;" class="iconfont">&#xe8db;</span></a>
+				<a  id="zhihu" href="#"><span>知 乎</span></a>
+				<div id="xiexing"></div>
+			</div>
+		</div>
+		</div>
+		
+		<footer>
+			<div id="weixin">
+				<img src="img/weixin.png" />
+			</div>
+			
+			<div id="footerbox" >
+				<div><a href="#">©梅赛德斯-奔驰版权所有</a></div>
+				<ul>
+					<li class="l"><a href="#">网站地图</a></li>
+					<li class="l"><a href="#">隐私政策</a></li>
+					<li class="l"><a href="#">用户协议</a></li>
+					<li class="l"><a href="#">京ICP备09046804号-2</a></li>
+					<li class="l"><a href="#">法律声明</a></li>
+					<li class="l"><a href="#">京公网安备 11010502035702号</a></li>
+					<li class="l"><a href="#">投诉电话</a></li>
+				</ul>
+			</div>
+		</footer>
+		
+		<div id="duihua">
+			<p><span class="l">X</span> 梅赛德斯-奔驰在线客服</p>
+			<div class="l">
+				<div class="l">
+					<img class="l" src="img/duihua.png">
+					<div class="l">欢迎联系梅赛德斯-奔驰客户服务中心，很高兴为您服务。</div>
+					<br />
+					<br />
+					<img style="margin-top:30px;" class="l" src="img/duihua.png">
+					<div class="l" style="margin-top:20px;">
+						<ul>
+							<li><a href="#">如何在线预约试驾<span class="r">></span></a></li>
+							<li><a href="#">如何在线预订车辆<span class="r">></span></a></li>
+							<li><a href="#">如何查找经销商<span class="r">></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="shuru">
+				<p></p>
+				<input  type="text" value="请在此输入文字"/>
+				<div>发送</div>
+			</div>
+		</div>
+		
+		<div id="duihua1">
+			<div>客服</div>
+		</div>
+
+
+		<script src="./js/shouye.js"></script>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+/*========================清样式清间距==========================*/
+div,h1,h2,h3,h4,h5,h6,p,body,a,input,ul,ol,li,dl,dt,dd{ padding:0; margin:0}
+ul,ol{ list-style:none}
+input{  outline:none}
+
+/*========================定义全局样式==========================*/
+body{ font-size:14px; font-family:"微软雅黑"; color:#ccc}
+
+/*========================定义超链接样式==========================*/
+a{ text-decoration:none; color:#CCC}
+a:hover{ text-decoration:underline;color:00b5ee;}
+
+/*========================定义公共样式==========================*/
+.l{ float:left;}
+.r{ float:right}
+
+header{width: 100%;height: 108px;background: black;}
+header img{width: 259px;height: 64px;padding-left: 290px;padding-top: 22px;}
+
+nav{width: 100%;height: 776px;position: relative;}
+nav .beijing img{width:1519px;height: 776px;}
+nav .chuangkou{width: 590px;height: 570px;background-color: white;position: absolute;left: 460px;top:70px;box-shadow:0px 0px 9px white;}
+nav .chuangkou .denglu{width: 470px;height: 550px;margin-left: 60px;margin-top: 30px;}
+nav .chuangkou .denglu .Mercedes{width: 470px;height: 60px;}
+nav .chuangkou .denglu .Mercedes .ID{width: 280px;height: 40px;margin-left: 100px;margin-top: 14px;}
+nav .chuangkou .denglu .Mercedes span{position: relative;}
+nav .chuangkou .denglu .Mercedes span img{width: 16px;height: 16px;position: absolute;top: -15px;}
+nav .chuangkou .denglu .Mercedes span .tanchuang{width: 468px;height: 190px;background-color: white;position: absolute;top: 30px;color: black;font-size: 16px;line-height: 1.5em;z-index: 1;box-shadow:0px 0px 9px #ccc;border-radius: 7px;display: none;font-weight: 300;}
+nav .chuangkou .denglu .Mercedes span .tanchuang p{padding: 20px;}
+nav .chuangkou .denglu .check{width: 15px;height: 15px;margin-top: 25px;}
+nav .chuangkou .denglu .tongyi{margin-left: 10px;color: black;font-size: 16px;}
+nav .chuangkou .denglu .rrr{display: none;}
+nav .chuangkou .denglu .up{width: 468px;height: 30px;border: none;margin-top: 35px;border-bottom: 1px #ccc solid;}
+nav .chuangkou .denglu .down{width: 468px;height: 30px;border: none;margin-top: 28px;border-bottom: 1px #ccc solid;}
+nav .chuangkou .denglu .button{width: 470px;height: 50px;background-color: #00adef;border: none;margin-top: 36px;color: white;}
+nav .chuangkou .denglu .ljdl{margin-top: 25px;text-align: center;color: black;}
+nav .chuangkou .denglu a{color: #00adef;}
+
+footer div{width: 100%;height: 90px;background-color: black;}
+footer div p{text-align: center;padding-top: 20px;font-size: 10px;color: #ccc;}
+footer div ul{width: 680px;margin: 10px auto;}
+footer div ul li{margin-right: 20px;font-size: 10px;}
